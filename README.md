@@ -145,7 +145,7 @@ Project Screenshots
 
 1. Database Schema
 
-!["Schema Diagram"] (./screenshots/schema-diagram.svg)
+!["Schema Diagram"](./screenshots/schema-diagram.svg)
 
 2. SQL Schema Output
 
@@ -157,7 +157,7 @@ Project Screenshots
 
 4. Posts Table Output
 
-!["Posts Output"] (./screenshots/posts-output.png)
+!["Posts Output"](./screenshots/post-output.png)
 
 5. Comments Table Output
 
@@ -169,11 +169,11 @@ Project Screenshots
 
 7. MongoDB Output
 
-!["MongoDB Output"] (./screenshots/mongodb-output1.png)
+!["MongoDB Output"](./screenshots/mongodb-output1.png)
 
 !["MongoDB Output"](./screenshots/mongodb-output2.png)
 
-!["MongoDB Output"] (./screenshots/mongodb-output3.png)
+!["MongoDB Output"](./screenshots/mongodb-output3.png)
 
 Learning Outcomes
 
