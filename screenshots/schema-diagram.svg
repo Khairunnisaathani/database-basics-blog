@@ -1,0 +1,40 @@
+﻿<svg width="900" height="550" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="550" fill="white"/>
+
+  <text x="450" y="40" font-size="26" text-anchor="middle" font-weight="bold">BLOG DATABASE SCHEMA</text>
+
+  <rect x="50" y="100" width="230" height="220" fill="#e8f0fe" stroke="black" stroke-width="2"/>
+  <text x="165" y="135" font-size="22" text-anchor="middle" font-weight="bold">USERS</text>
+  <text x="70" y="175" font-size="16">PK user_id</text>
+  <text x="70" y="210" font-size="16">name</text>
+  <text x="70" y="245" font-size="16">email</text>
+  <text x="70" y="280" font-size="16">password</text>
+  <text x="70" y="305" font-size="16">created_at</text>
+
+  <rect x="340" y="100" width="230" height="220" fill="#e8f5e9" stroke="black" stroke-width="2"/>
+  <text x="455" y="135" font-size="22" text-anchor="middle" font-weight="bold">POSTS</text>
+  <text x="360" y="175" font-size="16">PK post_id</text>
+  <text x="360" y="210" font-size="16">FK user_id</text>
+  <text x="360" y="245" font-size="16">title</text>
+  <text x="360" y="280" font-size="16">content</text>
+  <text x="360" y="305" font-size="16">created_at</text>
+
+  <rect x="630" y="100" width="230" height="220" fill="#fff3e0" stroke="black" stroke-width="2"/>
+  <text x="745" y="135" font-size="22" text-anchor="middle" font-weight="bold">COMMENTS</text>
+  <text x="650" y="175" font-size="16">PK comment_id</text>
+  <text x="650" y="210" font-size="16">FK post_id</text>
+  <text x="650" y="245" font-size="16">FK user_id</text>
+  <text x="650" y="280" font-size="16">comment_text</text>
+  <text x="650" y="305" font-size="16">created_at</text>
+
+  <path d="M280 210 H340" stroke="black" stroke-width="2" fill="none"/>
+  <text x="310" y="195" font-size="13" text-anchor="middle">1 : Many</text>
+
+  <path d="M570 210 H630" stroke="black" stroke-width="2" fill="none"/>
+  <text x="600" y="195" font-size="13" text-anchor="middle">1 : Many</text>
+
+  <text x="450" y="400" font-size="18" text-anchor="middle">Relationships</text>
+  <text x="450" y="435" font-size="16" text-anchor="middle">One user can create many posts.</text>
+  <text x="450" y="465" font-size="16" text-anchor="middle">One post can have many comments.</text>
+  <text x="450" y="495" font-size="16" text-anchor="middle">One user can write many comments.</text>
+</svg>
