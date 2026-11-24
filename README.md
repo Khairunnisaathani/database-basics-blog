@@ -145,11 +145,11 @@ Project Screenshots
 
 1. Database Schema
 
-[!"Schema Diagram"] (./screenshots/schema-diagram.svg)
+!["Schema Diagram"] (./screenshots/schema-diagram.svg)
 
 2. SQL Schema Output
 
-[!"SQL Schema Output"](./screenshots/schema-output.png)
+!["SQL Schema Output"](./screenshots/schema-output.png)
 
 3. Users Table Output
 
@@ -165,13 +165,13 @@ Project Screenshots
 
 6. SQL JOIN Output
 
-!["SQL JOIN Output"] (./screenshots/join-output.png)
+!["SQL JOIN Output"](./screenshots/join-output.png)
 
 7. MongoDB Output
 
 !["MongoDB Output"] (./screenshots/mongodb-output1.png)
 
-!["MongoDB Output" ](./screenshots/mongodb-output2.png)
+!["MongoDB Output"](./screenshots/mongodb-output2.png)
 
 !["MongoDB Output"] (./screenshots/mongodb-output3.png)
 
